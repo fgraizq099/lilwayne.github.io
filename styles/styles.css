@@ -1,0 +1,140 @@
+#hero-banner {
+    background-image: url('../images/67019672.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'BeauRivage';
+    src: url('../styles/fonts/BeauRivage-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin:0;
+    display:inline-grid;
+    background-image: url('../images/lil-wayne-gif.gif');
+}
+
+#hero-banner h2 {
+    font-size: 2em;
+    color: black;
+    background-position: center;
+    text-align: center;
+    transform: translateY(20vh); 
+    font-size:800%;
+    display: block;
+    font-family: 'BeauRivage';
+}
+
+#hero-banner p {
+    max-width: 800px;
+    margin: 0 auto;
+    background-position: center;
+    text-align: center;
+    transform: translateY(20vh); 
+    font-size: 50px;
+    color: black;
+}
+#main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+article {
+    flex: 1;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: powderblue;
+    height: fit-content;
+
+}
+
+article h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+article p {
+    text-align: center;
+}
+
+#John{
+    text-align: center;
+
+}
+#John-image {
+    text-align: center;
+    margin: 150px;
+}
+#Love_Me{
+    text-align: center;
+
+}
+#Love_Me-image {
+    text-align: center;
+    margin: 150px;
+}
+#Mr_Carter {
+    text-align: center;
+}
+#Mr_Carter-image {
+    text-align: center;
+    margin: 150px;
+}
+
+.video {
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px; 
+    margin: 0;
+    padding: 0;
+    
+}
+
+@media screen and (max-width: 600px) {
+    #hero-banner {
+        padding: 30px;
+    }
+    #main {
+        flex-direction: column;
+    }
+    article {
+        margin: 20px 0;
+    }
+    .video{
+        width: 100%;
+    }
+    #hero-banner h2 {
+        font-size:300%;
+    }
+}
+
+#footer {
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    background: powderblue;
+    font-family: 'Roboto Slab', serif;
+}
+
+#social-links {
+    text-align: center;
+}
